@@ -14,12 +14,14 @@ result = re.match(r'world', 'hello world')  # No match
 result = re.search(r'world', 'hello world')  # Match!  (Searches anywhere in string)
 
 
-matches = re.findall(r'\d+', 'I have 2 apples and 5 oranges')   # ['2', '5'] -- (Finds ALL matches)
+matches = re.finditer(r'\d+', 'I have 2 apples and 5 oranges')   # ['2', '5'] -- (Finds ALL matches)
 # print(matches)
 
 # re.finditer()
-for match in re.finditer(r'\d+', 'I have 2 apples and 5 oranges'):    # Returns iterator with match objects
-    print(match)
+matches = re.finditer(r'\d+', 'I have 2 apples and 5 oranges')   # ['2', '5'] -- (returns iterators)
+for match in matches:
+    # print(match.span())
+    print(match.group(), match.span())          # 2- match, (7, 8) - span(start, end)
 
 # re.sub()
 text = re.sub(r'\d+', '#', 'I have 2 apples and 5 oranges')     # Replace patterns
@@ -166,4 +168,8 @@ print("==================Symbol & Meaning========================")
 # re.g         Global (all matches)
 
 
+# m.group()   # matched text
+# m.start()   # start index
+# m.end()     # end index
+# m.span()    # (start, end) indexs
 
