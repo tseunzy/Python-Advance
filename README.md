@@ -14,6 +14,13 @@
     Creating Context managers with Class, __enter__ and __exit__
     Creating Context managers with Generator -- YIELD means “pause here and come back",
 
+**Regular Expressions (Regex)**
+
+    Extract emails, phone numbers, dates, IDs
+    Validate inputs (PINs, usernames, passwords)
+    Clean text (remove extra spaces, mask numbers)
+    Replace patterns safely
+
 
 
 [Corey Schafer](https://www.youtube.com/watch?v=YYXdXT2l-Gg&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU)

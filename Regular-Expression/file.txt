@@ -1,0 +1,40 @@
+Name: Adebayo Ogun
+Username: ade_ogun23
+Email: adebayo.ogun@gmail.com
+Phone: 08123456789
+Account No: 4500987612
+Balance: ₦125,500.75
+Registered: 05-03-2022
+
+Name: Fatima Musa
+Username: fatima_musa
+Email: fatima_musa@yahoo.com
+Phone: 09044556677
+Account No: 7823459901
+Balance: ₦87,250.00
+Registered: 19-11-2023
+
+Name: David Okeke
+Username: dave_okeke99
+Email: david-okeke@outlook.com
+Phone: 07099887766
+Account No: 9900123456
+Balance: ₦45,000.50
+Registered: 01-01-2024
+
+Transactions:
+TXN-001234
+TXN-998877
+TXN-445566
+TXN-ABC123
+
+Support Emails:
+support@bankapp.com
+helpdesk@service.org
+contact@company.net
+
+websites:
+https://www.google.com
+http://bankapp.com
+https://fb.com
+https://www.company.net
