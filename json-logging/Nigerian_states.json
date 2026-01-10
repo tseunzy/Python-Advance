@@ -1,0 +1,299 @@
+{
+  "country": "Nigeria",
+  "capital": "Abuja",
+  "population": 218000000,
+  "area_km2": 923768,
+  "currency": "Naira (₦)",
+  "languages": ["English", "Hausa", "Yoruba", "Igbo"],
+  "regions": [
+    {
+      "name": "North Central",
+      "states": [
+        {
+          "name": "Benue",
+          "capital": "Makurdi",
+          "lgas": ["Makurdi", "Gboko", "Otukpo", "Katsina-Ala", "Ukum"],
+          "population": 5500000,
+          "area_km2": 34059
+        },
+        {
+          "name": "Kogi",
+          "capital": "Lokoja",
+          "lgas": ["Lokoja", "Okene", "Kabba", "Idah", "Ankpa"],
+          "population": 4500000,
+          "area_km2": 29833
+        },
+        {
+          "name": "Kwara",
+          "capital": "Ilorin",
+          "lgas": ["Ilorin", "Offa", "Omu-Aran", "Lafiagi", "Kaiama"],
+          "population": 3200000,
+          "area_km2": 36825
+        },
+        {
+          "name": "Nasarawa",
+          "capital": "Lafia",
+          "lgas": ["Lafia", "Keffi", "Akwanga", "Nasarawa", "Karu"],
+          "population": 2500000,
+          "area_km2": 27117
+        },
+        {
+          "name": "Niger",
+          "capital": "Minna",
+          "lgas": ["Minna", "Bida", "Suleja", "Kontagora", "New Bussa"],
+          "population": 5600000,
+          "area_km2": 76363
+        },
+        {
+          "name": "Plateau",
+          "capital": "Jos",
+          "lgas": ["Jos", "Bukuru", "Pankshin", "Shendam", "Langtang"],
+          "population": 4200000,
+          "area_km2": 30913
+        },
+        {
+          "name": "Federal Capital Territory",
+          "capital": "Abuja",
+          "lgas": ["Abuja Municipal", "Gwagwalada", "Kuje", "Bwari", "Kwali"],
+          "population": 3500000,
+          "area_km2": 7315
+        }
+      ]
+    },
+    {
+      "name": "North East",
+      "states": [
+        {
+          "name": "Adamawa",
+          "capital": "Yola",
+          "lgas": ["Yola", "Mubi", "Ganye", "Numan", "Jimeta"],
+          "population": 4300000,
+          "area_km2": 36917
+        },
+        {
+          "name": "Bauchi",
+          "capital": "Bauchi",
+          "lgas": ["Bauchi", "Azare", "Jama'are", "Misau", "Ningi"],
+          "population": 6500000,
+          "area_km2": 45837
+        },
+        {
+          "name": "Borno",
+          "capital": "Maiduguri",
+          "lgas": ["Maiduguri", "Bama", "Dikwa", "Gwoza", "Askira"],
+          "population": 5900000,
+          "area_km2": 70898
+        },
+        {
+          "name": "Gombe",
+          "capital": "Gombe",
+          "lgas": ["Gombe", "Kaltungo", "Dukku", "Deba", "Bajoga"],
+          "population": 3300000,
+          "area_km2": 18768
+        },
+        {
+          "name": "Taraba",
+          "capital": "Jalingo",
+          "lgas": ["Jalingo", "Wukari", "Bali", "Gembu", "Mutum-Biyu"],
+          "population": 3200000,
+          "area_km2": 54473
+        },
+        {
+          "name": "Yobe",
+          "capital": "Damaturu",
+          "lgas": ["Damaturu", "Potiskum", "Gashua", "Geidam", "Nguru"],
+          "population": 3400000,
+          "area_km2": 45502
+        }
+      ]
+    },
+    {
+      "name": "North West",
+      "states": [
+        {
+          "name": "Jigawa",
+          "capital": "Dutse",
+          "lgas": ["Dutse", "Hadejia", "Birnin Kudu", "Gumel", "Kazaure"],
+          "population": 5800000,
+          "area_km2": 23154
+        },
+        {
+          "name": "Kaduna",
+          "capital": "Kaduna",
+          "lgas": ["Kaduna", "Zaria", "Kafanchan", "Soba", "Ikara"],
+          "population": 8300000,
+          "area_km2": 46053
+        },
+        {
+          "name": "Kano",
+          "capital": "Kano",
+          "lgas": ["Kano", "Dawakin Kudu", "Tarauni", "Nassarawa", "Gwale"],
+          "population": 15000000,
+          "area_km2": 20131
+        },
+        {
+          "name": "Katsina",
+          "capital": "Katsina",
+          "lgas": ["Katsina", "Daura", "Funtua", "Malumfashi", "Kankia"],
+          "population": 8700000,
+          "area_km2": 24192
+        },
+        {
+          "name": "Kebbi",
+          "capital": "Birnin Kebbi",
+          "lgas": ["Birnin Kebbi", "Argungu", "Yauri", "Zuru", "Jega"],
+          "population": 4500000,
+          "area_km2": 36800
+        },
+        {
+          "name": "Sokoto",
+          "capital": "Sokoto",
+          "lgas": ["Sokoto", "Wurno", "Tambuwal", "Kware", "Gwadabawa"],
+          "population": 5000000,
+          "area_km2": 25973
+        },
+        {
+          "name": "Zamfara",
+          "capital": "Gusau",
+          "lgas": ["Gusau", "Kaura Namoda", "Anka", "Talata Mafara", "Bungudu"],
+          "population": 4900000,
+          "area_km2": 39762
+        }
+      ]
+    },
+    {
+      "name": "South East",
+      "states": [
+        {
+          "name": "Abia",
+          "capital": "Umuahia",
+          "lgas": ["Umuahia", "Aba", "Ohafia", "Bende", "Arochukwu"],
+          "population": 3700000,
+          "area_km2": 6326
+        },
+        {
+          "name": "Anambra",
+          "capital": "Awka",
+          "lgas": ["Awka", "Onitsha", "Nnewi", "Ekuleri", "Agulu"],
+          "population": 5500000,
+          "area_km2": 4844
+        },
+        {
+          "name": "Ebonyi",
+          "capital": "Abakaliki",
+          "lgas": ["Abakaliki", "Afikpo", "Onueke", "Ezzamgbo", "Ishieke"],
+          "population": 2900000,
+          "area_km2": 5670
+        },
+        {
+          "name": "Enugu",
+          "capital": "Enugu",
+          "lgas": ["Enugu", "Nsukka", "Agbani", "Udi", "Oji River"],
+          "population": 4400000,
+          "area_km2": 7161
+        },
+        {
+          "name": "Imo",
+          "capital": "Owerri",
+          "lgas": ["Owerri", "Orlu", "Okigwe", "Mgbidi", "Oguta"],
+          "population": 5400000,
+          "area_km2": 5530
+        }
+      ]
+    },
+    {
+      "name": "South South",
+      "states": [
+        {
+          "name": "Akwa Ibom",
+          "capital": "Uyo",
+          "lgas": ["Uyo", "Eket", "Ikot Ekpene", "Oron", "Abak"],
+          "population": 5500000,
+          "area_km2": 7081
+        },
+        {
+          "name": "Bayelsa",
+          "capital": "Yenagoa",
+          "lgas": ["Yenagoa", "Brass", "Sagbama", "Nembe", "Ogbia"],
+          "population": 2200000,
+          "area_km2": 10773
+        },
+        {
+          "name": "Cross River",
+          "capital": "Calabar",
+          "lgas": ["Calabar", "Ugep", "Ogoja", "Ikom", "Obudu"],
+          "population": 3900000,
+          "area_km2": 20156
+        },
+        {
+          "name": "Delta",
+          "capital": "Asaba",
+          "lgas": ["Asaba", "Warri", "Ughelli", "Sapele", "Agbor"],
+          "population": 5700000,
+          "area_km2": 17698
+        },
+        {
+          "name": "Edo",
+          "capital": "Benin City",
+          "lgas": ["Benin City", "Auchi", "Ekpoma", "Igueben", "Uromi"],
+          "population": 4200000,
+          "area_km2": 17802
+        },
+        {
+          "name": "Rivers",
+          "capital": "Port Harcourt",
+          "lgas": ["Port Harcourt", "Obio-Akpor", "Ikwerre", "Etche", "Okrika"],
+          "population": 7300000,
+          "area_km2": 11077
+        }
+      ]
+    },
+    {
+      "name": "South West",
+      "states": [
+        {
+          "name": "Ekiti",
+          "capital": "Ado-Ekiti",
+          "lgas": ["Ado-Ekiti", "Ikere", "Ise", "Emure", "Aramoko"],
+          "population": 3300000,
+          "area_km2": 6353
+        },
+        {
+          "name": "Lagos",
+          "capital": "Ikeja",
+          "lgas": ["Ikeja", "Lagos Island", "Surulere", "Apapa", "Epe"],
+          "population": 15000000,
+          "area_km2": 3345
+        },
+        {
+          "name": "Ogun",
+          "capital": "Abeokuta",
+          "lgas": ["Abeokuta", "Sagamu", "Ijebu-Ode", "Ilaro", "Ifo"],
+          "population": 5200000,
+          "area_km2": 16762
+        },
+        {
+          "name": "Ondo",
+          "capital": "Akure",
+          "lgas": ["Akure", "Ondo", "Owo", "Okitipupa", "Ikare"],
+          "population": 4700000,
+          "area_km2": 15500
+        },
+        {
+          "name": "Osun",
+          "capital": "Osogbo",
+          "lgas": ["Osogbo", "Ilesa", "Ife", "Ejigbo", "Ikirun"],
+          "population": 4700000,
+          "area_km2": 9251
+        },
+        {
+          "name": "Oyo",
+          "capital": "Ibadan",
+          "lgas": ["Ibadan", "Ogbomoso", "Oyo", "Iseyin", "Saki"],
+          "population": 7800000,
+          "area_km2": 28454
+        }
+      ]
+    }
+  ]
+}

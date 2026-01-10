@@ -19,7 +19,7 @@ Username: dave_okeke99
 Email: david-okeke@outlook.com
 Phone: 234 7099887766
 Account No: 9900123456
-Balance: ₦45,000.50
+Balance: ₦₦45,000.50
 Registered: 1/01/2024
 
 Transactions:
@@ -27,6 +27,14 @@ TXN-001234
 TXN-998877
 TXN-445566
 TXN-ABC123
+
+Amount
+77,250.00 Naira
+950.00 Naira
+
+650.00 Dollars
+
+223,490.00 Dollars
 
 Support Emails:
 support@bankapp.com

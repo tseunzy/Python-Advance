@@ -84,6 +84,14 @@ replac_blance = re.sub(r"₦\d{1,3}\,\d{3}\.\d{2}", "₦***", content)
 # print(replac_blance)
 
 
+lookahead = re.finditer(r"[\d,.]+(?= Dollars)", content)  # Positive Lookahead 
+for look in lookahead:
+    print(look.group())
+
+
+Positive_Lookbehind = re.finditer(r"(?<=\₦)[\d,.]+", content)       # Positive Lookbehind
+for positive in Positive_Lookbehind:
+    print(positive.group())
 
 
 print("==================Validate inputs=====================")
@@ -136,8 +144,8 @@ print("==================Symbol & Meaning========================")
 # +	        1 or more
 # ?	        0 or 1 
 # s?        optional s
-# (?=...)   check condition - Look ahead and check if.. (?<=) lookbehind
-# (?!)
+# (?=...)   check condition - +Lookahead and check if.. (?<=) +lookbehind
+# (?!)      Negative Lookahead
 # -         Specify a range of numbers [1-5]
 # |         Either Or
 # []	    Character set
