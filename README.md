@@ -21,6 +21,13 @@
     Clean text (remove extra spaces, mask numbers)
     Replace patterns safely
 
+**Logging module**
+
+    Simple Logging(DEBUG, INFO, WARNING, ERROR, CRITICAL)
+    Multiple Destinations to save logs(for DEBUG, ERROR)
+    Rotating File Handler
+
+**Multithreading & Multiprocessing**
 
 
 [Corey Schafer](https://www.youtube.com/watch?v=YYXdXT2l-Gg&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU)

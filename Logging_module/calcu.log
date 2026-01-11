@@ -1,0 +1,20 @@
+ DEBUG - addition(): addition starts: 10 + 5
+ DEBUG - addition(): Addition complete: 15
+ DEBUG - subtract(): Subtraction starts: 20 - 8
+ DEBUG - subtract(): Subtracting 20 - 8 = 12
+ DEBUG - multiply(): multiplication started: 6 * 7
+ DEBUG - multiply(): Multiplication complete: 42
+ INFO - divide(): divide function started 100 / 4
+ DEBUG - divide(): Division result is 25.0
+ INFO - divide(): divide function started 5 / 0
+ ERROR - divide(): cannot divide by Zero
+2026-01-11 14:00:24,939 - DEBUG - __main__: addition(): addition starts: 10 + 5
+2026-01-11 14:00:24,940 - DEBUG - __main__: addition(): Addition complete: 15
+2026-01-11 14:00:24,940 - DEBUG - __main__: subtract(): Subtraction starts: 20 - 8
+2026-01-11 14:00:24,941 - DEBUG - __main__: subtract(): Subtracting 20 - 8 = 12
+2026-01-11 14:00:24,941 - DEBUG - __main__: multiply(): multiplication started: 6 * 7
+2026-01-11 14:00:24,941 - DEBUG - __main__: multiply(): Multiplication complete: 42
+2026-01-11 14:00:24,942 - INFO - __main__: divide(): divide function started 100 / 4
+2026-01-11 14:00:24,942 - DEBUG - __main__: divide(): Division result is 25.0
+2026-01-11 14:00:24,943 - INFO - __main__: divide(): divide function started 5 / 0
+2026-01-11 14:00:24,943 - ERROR - __main__: divide(): cannot divide by Zero
