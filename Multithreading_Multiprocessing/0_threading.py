@@ -155,7 +155,7 @@ with concurrent.futures.ThreadPoolExecutor() as executor:
     for day in dayss:           # SUBMIT method return the future object
         future = executor.submit(job, day)
         results.append(future)
-        
+
 # ✅ `as_completed()` - This allows you to process results as soon as each thread finishes:\
     for f in concurrent.futures.as_completed(results):
         print(f.result())
@@ -221,35 +221,6 @@ t2.join()
 
 print("Finished in", time.time()-t)
 print("Both threads finished!")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-print('\n=============Multithreading=================')
-# One program runs multiple processes
-# can run truly in parallel on multiple CPU cores
-# Good for heavy calculations, big loops, image processing -- CPU-bound tasks (heavy computation)
-
-
-
-
-
 
 
 
