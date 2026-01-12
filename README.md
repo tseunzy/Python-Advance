@@ -28,6 +28,18 @@
     Rotating File Handler
 
 **Multithreading & Multiprocessing**
+    
+    Multithreading is a way to run **multiple tasks at the same time** in a single Python program. It is especially useful for tasks that spend a lot of time **waiting**, like:
+    - downloading files from the internet, reading/writing files
+    - calling APIs, database queries
+    Threading Tool - threading` module
+    concurrent.futures.ThreadPoolExecutor
+    Example: Multithreaded PDF Downloader
+
+    Multiprocessing is a way to run tasks **in parallel using multiple CPU cores**.  
+    Unlike multithreading (which shares one process), multiprocessing creates **separate processes**, each with its own Python interpreter and memory space.
+    Multiprocessing Tools - multiprocessing module
+    concurrent.futures.ProcessPoolExecutor
 
 
 [Corey Schafer](https://www.youtube.com/watch?v=YYXdXT2l-Gg&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU)
