@@ -1,6 +1,8 @@
 
 import time
 import multiprocessing 
+import concurrent.futures
+
 
 def print_numbers():
     for i in range(5):
@@ -35,8 +37,7 @@ if __name__ == '__main__':
 
 # print('\n==========Using ProcessPoolExecutor=======================')
 
-import concurrent.futures
-import time
+
 
 def print_numbers():
     for i in range(5):
@@ -119,7 +120,7 @@ def calc_cube(numbers):
         time.sleep(0.2)
         print('cube:',n*n*n)
     return "Cube of numbers"
-
+ 
 if __name__ == "__main__":
     print('\n==========Using ProcessPoolExecutor=======================')
     arr = [2,3,8,9]
@@ -135,6 +136,22 @@ if __name__ == "__main__":
 
     end = time.time()
     print(f"Finished in {round((end - start), 2)} seconds")
+
+
+
+
+
+def square(n):
+    return n * n
+
+if __name__ == "__main__":
+    print('\n=============Example 3===================')
+    numbers = [2, 3, 8, 9]
+
+    with concurrent.futures.ProcessPoolExecutor(max_workers=(2)) as executor:
+        result = list(executor.map(square, numbers))
+
+    print(result)
 
 
 
